@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9483E9114DD36160092E55E /* iTetrisTitleImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9483E9014DD36160092E55E /* iTetrisTitleImage.jpg */; };
+		A9483E9714DD4AE50092E55E /* iTetrisCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = A9483E9614DD4AE50092E55E /* iTetrisCursor.m */; };
+		A95CD80D14E231FC00B18FD4 /* iTetrisCursorShape.c in Sources */ = {isa = PBXBuildFile; fileRef = A95CD80C14E231FC00B18FD4 /* iTetrisCursorShape.c */; };
 		A98362B214CC68BF002DC8FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A98362B114CC68BF002DC8FB /* UIKit.framework */; };
 		A98362B414CC68BF002DC8FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A98362B314CC68BF002DC8FB /* Foundation.framework */; };
 		A98362B614CC68BF002DC8FB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A98362B514CC68BF002DC8FB /* CoreGraphics.framework */; };
@@ -23,6 +26,8 @@
 		A98362DE14CC68BF002DC8FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A98362DC14CC68BF002DC8FB /* InfoPlist.strings */; };
 		A98362E014CC68BF002DC8FB /* iTetrisTests.h in Resources */ = {isa = PBXBuildFile; fileRef = A98362DF14CC68BF002DC8FB /* iTetrisTests.h */; };
 		A98362E214CC68BF002DC8FB /* iTetrisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A98362E114CC68BF002DC8FB /* iTetrisTests.m */; };
+		A9DE4DE914DD721E00CE7B88 /* iTetrisGameBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DE4DE814DD721E00CE7B88 /* iTetrisGameBoard.m */; };
+		A9DE4DEC14DE77AE00CE7B88 /* iTetrisCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DE4DEB14DE77AE00CE7B88 /* iTetrisCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,26 +41,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A9483E9014DD36160092E55E /* iTetrisTitleImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = iTetrisTitleImage.jpg; path = ../../../../../Desktop/iTetrisTitleImage.jpg; sourceTree = "<group>"; };
+		A9483E9514DD4AE50092E55E /* iTetrisCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTetrisCursor.h; sourceTree = SOURCE_ROOT; };
+		A9483E9614DD4AE50092E55E /* iTetrisCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTetrisCursor.m; sourceTree = SOURCE_ROOT; };
+		A95CD80C14E231FC00B18FD4 /* iTetrisCursorShape.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = iTetrisCursorShape.c; sourceTree = "<group>"; };
 		A98362AD14CC68BF002DC8FB /* iTetris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTetris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A98362B114CC68BF002DC8FB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A98362B314CC68BF002DC8FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A98362B514CC68BF002DC8FB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A98362B914CC68BF002DC8FB /* iTetris-Info.plist */ = {isa = PBXFileReference; path = "iTetris-Info.plist"; sourceTree = "<group>"; };
+		A98362B914CC68BF002DC8FB /* iTetris-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTetris-Info.plist"; sourceTree = "<group>"; };
 		A98362BB14CC68BF002DC8FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A98362BD14CC68BF002DC8FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A98362BF14CC68BF002DC8FB /* iTetris-Prefix.pch */ = {isa = PBXFileReference; path = "iTetris-Prefix.pch"; sourceTree = "<group>"; };
-		A98362C014CC68BF002DC8FB /* iTetrisAppDelegate.h */ = {isa = PBXFileReference; path = iTetrisAppDelegate.h; sourceTree = "<group>"; };
+		A98362BF14CC68BF002DC8FB /* iTetris-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iTetris-Prefix.pch"; sourceTree = "<group>"; };
+		A98362C014CC68BF002DC8FB /* iTetrisAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTetrisAppDelegate.h; sourceTree = "<group>"; };
 		A98362C114CC68BF002DC8FB /* iTetrisAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTetrisAppDelegate.m; sourceTree = "<group>"; };
 		A98362C414CC68BF002DC8FB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		A98362C614CC68BF002DC8FB /* iTetrisViewController.h */ = {isa = PBXFileReference; path = iTetrisViewController.h; sourceTree = "<group>"; };
+		A98362C614CC68BF002DC8FB /* iTetrisViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTetrisViewController.h; sourceTree = "<group>"; };
 		A98362C714CC68BF002DC8FB /* iTetrisViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTetrisViewController.m; sourceTree = "<group>"; };
 		A98362CA14CC68BF002DC8FB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iTetrisViewController.xib; sourceTree = "<group>"; };
 		A98362D114CC68BF002DC8FB /* iTetrisTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTetrisTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A98362D214CC68BF002DC8FB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		A98362DB14CC68BF002DC8FB /* iTetrisTests-Info.plist */ = {isa = PBXFileReference; path = "iTetrisTests-Info.plist"; sourceTree = "<group>"; };
+		A98362DB14CC68BF002DC8FB /* iTetrisTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTetrisTests-Info.plist"; sourceTree = "<group>"; };
 		A98362DD14CC68BF002DC8FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A98362DF14CC68BF002DC8FB /* iTetrisTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTetrisTests.h; sourceTree = "<group>"; };
 		A98362E114CC68BF002DC8FB /* iTetrisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTetrisTests.m; sourceTree = "<group>"; };
+		A9DE4DE414DD4E7C00CE7B88 /* iTetrisCursorShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTetrisCursorShape.h; sourceTree = "<group>"; };
+		A9DE4DE714DD721E00CE7B88 /* iTetrisGameBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTetrisGameBoard.h; sourceTree = "<group>"; };
+		A9DE4DE814DD721E00CE7B88 /* iTetrisGameBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTetrisGameBoard.m; sourceTree = "<group>"; };
+		A9DE4DEA14DE77AE00CE7B88 /* iTetrisCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTetrisCell.h; sourceTree = "<group>"; };
+		A9DE4DEB14DE77AE00CE7B88 /* iTetrisCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTetrisCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +130,14 @@
 		A98362B714CC68BF002DC8FB /* iTetris */ = {
 			isa = PBXGroup;
 			children = (
+				A9483E9514DD4AE50092E55E /* iTetrisCursor.h */,
+				A9DE4DE414DD4E7C00CE7B88 /* iTetrisCursorShape.h */,
+				A95CD80C14E231FC00B18FD4 /* iTetrisCursorShape.c */,
+				A9483E9614DD4AE50092E55E /* iTetrisCursor.m */,
+				A9DE4DE714DD721E00CE7B88 /* iTetrisGameBoard.h */,
+				A9DE4DE814DD721E00CE7B88 /* iTetrisGameBoard.m */,
+				A9DE4DEA14DE77AE00CE7B88 /* iTetrisCell.h */,
+				A9DE4DEB14DE77AE00CE7B88 /* iTetrisCell.m */,
 				A98362C014CC68BF002DC8FB /* iTetrisAppDelegate.h */,
 				A98362C114CC68BF002DC8FB /* iTetrisAppDelegate.m */,
 				A98362C314CC68BF002DC8FB /* MainWindow.xib */,
@@ -130,6 +152,7 @@
 		A98362B814CC68BF002DC8FB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A9483E9014DD36160092E55E /* iTetrisTitleImage.jpg */,
 				A98362B914CC68BF002DC8FB /* iTetris-Info.plist */,
 				A98362BA14CC68BF002DC8FB /* InfoPlist.strings */,
 				A98362BD14CC68BF002DC8FB /* main.m */,
@@ -230,6 +253,7 @@
 				A98362BC14CC68BF002DC8FB /* InfoPlist.strings in Resources */,
 				A98362C514CC68BF002DC8FB /* MainWindow.xib in Resources */,
 				A98362CB14CC68BF002DC8FB /* iTetrisViewController.xib in Resources */,
+				A9483E9114DD36160092E55E /* iTetrisTitleImage.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +292,10 @@
 				A98362BE14CC68BF002DC8FB /* main.m in Sources */,
 				A98362C214CC68BF002DC8FB /* iTetrisAppDelegate.m in Sources */,
 				A98362C814CC68BF002DC8FB /* iTetrisViewController.m in Sources */,
+				A9483E9714DD4AE50092E55E /* iTetrisCursor.m in Sources */,
+				A9DE4DE914DD721E00CE7B88 /* iTetrisGameBoard.m in Sources */,
+				A9DE4DEC14DE77AE00CE7B88 /* iTetrisCell.m in Sources */,
+				A95CD80D14E231FC00B18FD4 /* iTetrisCursorShape.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +471,7 @@
 				A98362E714CC68BF002DC8FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A98362E814CC68BF002DC8FB /* Build configuration list for PBXNativeTarget "iTetrisTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +480,7 @@
 				A98362EA14CC68BF002DC8FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
